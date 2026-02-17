@@ -5,6 +5,10 @@
 - [Dataset Summary](#dataset-summary)
 - [Problem Statement](#problem-statement)
 - [Methodology](#methodology)
+    - [Data Preprocessing](#data-preprocessing)
+    - [Model Architecture](#model-architecture)
+    - [Model Training](#model-training)
+    - [Evaluation Strategy](#evaluation-strategy)
 - [Experiments & Results](#experiments--results)
 - [Key Learnings](#key-learnings)
 - [Limitations & Future Work](#limitations--future-work)
@@ -35,9 +39,23 @@ This resolution was selected to balance computational efficiency with sufficient
 
 This project aims to solve a binary image classification problem. Given an image of a cell $x \in \mathbb{R}^{64 \times 64 \times 3}$, the model learns a function $f(x) \rightarrow y$ where $y \in \{0, 1\}$ represents each class label.
 
-
-
 ## Methodology
+
+### Data Preprocessing
+
+Data transformation process and final product
+
+### Model Architecture
+
+Define the final model architecture
+
+### Model Training
+
+Define the process for training the model
+
+### Evaluation Strategy
+
+Define what metrics were used to determine model performance
 
 ## Experiments & Results
 
